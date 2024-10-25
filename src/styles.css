@@ -1,0 +1,105 @@
+/* Body styling to set the background */
+body {
+  background-color: #f0f4f8; /* A soft light blue color */
+  font-family: 'Arial', sans-serif; /* Change to a clean font */
+  margin: 0; /* Remove default margin */
+  padding: 20px; /* Add padding around the page */
+}
+
+/* General card styling */
+.card {
+  width: 100%;
+  max-width: 700px;
+  margin: 30px auto;
+  padding: 25px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Header styling */
+.card-header h2 {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: #333;
+}
+
+.card-header p {
+  font-size: 16px;
+  color: #777;
+  margin-bottom: 0;
+}
+
+/* Content styling */
+.card-content {
+  margin-top: 25px;
+  line-height: 1.6;
+}
+
+/* Input group styling */
+.input-group {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.input {
+  width: 220px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.input:focus {
+  border-color: #4CAF50;
+  box-shadow: 0 0 8px rgba(76, 175, 80, 0.2);
+  outline: none;
+}
+
+/* Button styling */
+.btn {
+  padding: 10px 15px;
+  background-color: #4CAF50;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #45a049;
+  box-shadow: 0 5px 10px rgba(76, 175, 80, 0.3);
+}
+
+/* Predicted score styling */
+.predicted-score {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 15px;
+  color: #333;
+}
+
+/* Footer styling */
+.card-footer {
+  margin-top: 30px;
+}
+
+.model-stats p {
+  font-size: 14px;
+  margin: 8px 0;
+  color: #555;
+  font-weight: 400;
+}
